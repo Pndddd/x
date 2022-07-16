@@ -1,9 +1,7 @@
 // Media Query Mixin
-@ dir_chdir{
 @mixin breakpoint ($breakpoint) {
   @media screen and (min-width: $breakpoint) {
     @content;
-    }
   }
 }
 
