@@ -1,11 +1,12 @@
 // Media Query Mixin
-@ dir_chdir - /github/workspace/docs{
+@ dir_chdir{
 @mixin breakpoint ($breakpoint) {
   @media screen and (min-width: $breakpoint) {
     @content;
+    }
   }
 }
-}
+
 * {
   margin: 0;
   padding: 0;
